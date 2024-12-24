@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Filimonova</id>
+    <version>1.0.0</version>
+    <authors>Filimonova</authors>
+    <description>Package Description</description>
+    <repository type="git" />
+    <dependencies>
+      <group targetFramework="net9.0-windows7.0">
+        <dependency id="Microsoft.EntityFrameworkCore" version="9.0.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.EntityFrameworkCore.SqlServer" version="9.0.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+    <frameworkReferences>
+      <group targetFramework="net9.0-windows7.0">
+        <frameworkReference name="Microsoft.WindowsDesktop.App.WPF" />
+      </group>
+    </frameworkReferences>
+  </metadata>
+  <files>
+    <file src="C:\Users\user\source\repos\Filimonova\Filimonova\bin\Debug\net9.0-windows\Filimonova.runtimeconfig.json" target="lib\net9.0-windows7.0\Filimonova.runtimeconfig.json" />
+    <file src="C:\Users\user\source\repos\Filimonova\Filimonova\bin\Debug\net9.0-windows\Filimonova.dll" target="lib\net9.0-windows7.0\Filimonova.dll" />
+  </files>
+</package>
